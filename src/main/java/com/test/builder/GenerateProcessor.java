@@ -18,7 +18,7 @@ public GenerateProcessor() {
 }
 
 public Properties process(Properties in) {
-Properties out = new Properties();
+Properties out  = new Properties();
 Iterator var3 = in.entrySet().iterator();
 
 while(var3.hasNext()) {
